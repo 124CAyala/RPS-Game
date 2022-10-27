@@ -2,3 +2,44 @@ html, body {
   height: 100%;
   width: 100%;
 }
+.border-primary {
+  border-color: #80A4ED;
+}
+.win {
+  color: yellow !important;
+	-webkit-text-stroke: 1px blue !important;
+	-webkit-text-fill-color: yellow !important;
+  font-family: 'Silkscreen', cursive;
+}
+.text-general {
+  font-family: 'Silkscreen', cursive;
+}
+.rock {
+  background-image: url("imgs/rock.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+  width: auto;
+}
+.paper {
+  background-image: url("imgs/paper.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+  width: auto;
+}
+.scissors {
+  background-image: url("imgs/scissors.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+  width: auto;
+}
+.placeholder {
+  background-image: url("imgs/user.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+  width: auto;
+  background-color: white;
+}
